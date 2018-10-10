@@ -17,14 +17,13 @@ tmux是一个开源工具，用于在一个终端窗口中运行多个终端会�
 
 ### git-bash环境下命令行安装
 
-  $ git clone https://github.com/hongwenjun/tmux_for_windows.git
-  $ cd tmux_for_windows/
-  $ unzip -x tmux_for_git-bash.zip  -d /
+    $ git clone https://github.com/hongwenjun/tmux_for_windows.git
+    $ cd tmux_for_windows/
+    $ unzip -x tmux_for_git-bash.zip  -d /
 
 ### 原始的 tmux for msys2 的安装包，不需要下载
-  tmux-2.7-1-x86_64.pkg.tar.xz
-  
-  libevent-2.1.8-1-x86_64.pkg.tar.xz
+    tmux-2.7-1-x86_64.pkg.tar.xz
+    libevent-2.1.8-1-x86_64.pkg.tar.xz
 
 ![](https://raw.githubusercontent.com/hongwenjun/tmux_for_windows/master/tmux_for_windows.png)
 
