@@ -1,6 +1,8 @@
 # tmux_for_windows
 tmux是一个开源工具，用于在一个终端窗口中运行多个终端会话。本工具从msys2里提取，可以在Git for Windows的Git Bash (MingW64)下正常使用。
 
+蘭雅sRGB 龙芯小本服务器 | [sRGB.vicp.net](http://sRGB.vicp.net)
+
 ### 首先你要保证已经安装有 Git for Windows
 下载地址 https://git-scm.com/download/win
 
@@ -19,4 +21,4 @@ tmux是一个开源工具，用于在一个终端窗口中运行多个终端会�
 
 ![](https://raw.githubusercontent.com/hongwenjun/tmux_for_windows/master/tmux_for_windows.png)
 
-蘭雅sRGB 龙芯小本服务器 | [sRGB.vicp.net](http://sRGB.vicp.net)
+
