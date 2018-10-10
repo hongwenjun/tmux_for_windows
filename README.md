@@ -11,8 +11,10 @@ tmux是一个开源工具，用于在一个终端窗口中运行多个终端会�
 ### tmux 使用
 - Windows 开始菜单 运行 D:\Git\git-bash.exe
 - 命令行输入 tmux
-![](https://raw.githubusercontent.com/hongwenjun/tmux_for_windows/master/tmux_for_windows.png)
 
 ### 原始的 msys2 的安装包，不需要下载
   tmux-2.7-1-x86_64.pkg.tar.xz
+  
   libevent-2.1.8-1-x86_64.pkg.tar.xz
+
+![](https://raw.githubusercontent.com/hongwenjun/tmux_for_windows/master/tmux_for_windows.png)
