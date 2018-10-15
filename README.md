@@ -4,7 +4,9 @@ tmux是一个开源工具，用于在一个终端窗口中运行多个终端会�
 蘭雅sRGB 龙芯小本服务器 | [sRGB.vicp.net](http://sRGB.vicp.net)
 
 ### tmux在windows系统下安装使用
-<iframe width="560" height="315" src="https://youtu.be/zSUwczhdtKI" frameborder="0" allowfullscreen></iframe>
+https://youtu.be/zSUwczhdtKI
+
+![](https://raw.githubusercontent.com/hongwenjun/tmux_for_windows/master/tmux_for_windows.gif)
 
 ### 首先你要保证已经安装有 Git for Windows
 下载地址 https://git-scm.com/download/win
