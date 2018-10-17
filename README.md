@@ -33,3 +33,16 @@ https://youtu.be/zSUwczhdtKI
 ![](https://raw.githubusercontent.com/hongwenjun/tmux_for_windows/master/tmux_for_windows.png)
 
 
+# tmux 启用鼠标操作
+###  .tmux.conf 设定
+```
+# https://www.youtube.com/watch?v=xTplsyQaGFs
+
+# tmux 启用鼠标操作
+setw -g mouse
+set-option -g history-limit 20000
+set-option -g mouse on
+bind -n WheelUpPane select-pane -t= \; copy-mode -e \; send-keys -M
+bind -n WheelDownPane select-pane -t= \; send-keys -M
+```
+![](https://raw.githubusercontent.com/hongwenjun/tmux_for_windows/master/tmux_mouse.gif)
