@@ -60,8 +60,9 @@ bind -n WheelDownPane select-pane -t= \; send-keys -M
 
 ------
 
-# fish_for_git-bash
+
 ![](http://fishshell.com/assets/img/Terminal_Logo2_CRT_Flat.png)
+## fish_for_git-bash
 
 Fish 是"the friendly interactive shell"的简称，最大特点就是方便易用。很多其他 Shell 需要配置才有的功能，Fish 默认提供，不需要任何配置。
 
@@ -85,3 +86,25 @@ f3d45b93b85a9d57c978224bd8111c09  libpipeline-1.5.2-1-x86_64.pkg.tar.xz
 4dd5d447bb0e160502afe95a1bafe044  man-db-2.9.3-1-x86_64.pkg.tar.zst
 
 ```
+
+## 把fish设为交互式shell
+如果不将fish设为默认shell，就能照常运行Bash的初始化脚本。这能够保证用户当前的环境变量不受影响并且在fish中也能使用，因为fish是作为Bash的子进程运行的。下面是几种只把fish设为交互式shell的方法。
+
+### 通过.bashrc启动fish
+保持默认shell为Bash不变，然后添加一行**exec fish**到合适的Bash配置文件中，比如.bashrc。在这种方法中，Bash会正常执行/etc/profile和/etc/profile.d中的所有配置文件。相对于之后几种方法，这种是最通用的，因为这种方法在本机计算机和SSH远程计算机上都能使用。
+
+
+### 使用终端复用器的选项
+要将fish设为tmux启动的默认shell，在~/.tmux.conf中加入这行：
+
+  set-option -g default-shell "/usr/bin/fish"
+
+### 关闭问候语
+默认情况下，每次启动fish，fish都会打印问候语。要关闭问候语，可以在fish中运行：
+
+  set -U fish_greeting
+  
+### 网页界面
+通过下面命令即可用浏览器打开fish的配置页面。
+
+  fish_config
