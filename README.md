@@ -13,7 +13,7 @@ https://youtu.be/zSUwczhdtKI
 
 ### tmux for Git Bash (MingW64) 安装包使用
 - 下载  [tmux_for_git-bash.zip](https://github.com/hongwenjun/tmux_for_windows/raw/master/tmux_for_git-bash.zip)
-- 释放文件到 D:\Git
+- 释放文件到 D:\Git\usr
 - 实际可执行文件在 D:\Git\usr\bin\tmux.exe
 
 ### tmux 使用
@@ -25,7 +25,7 @@ https://youtu.be/zSUwczhdtKI
 ```bash
 git clone https://github.com/hongwenjun/tmux_for_windows.git
 cd tmux_for_windows/
-unzip -x tmux_for_git-bash.zip  -d /
+unzip -x tmux_for_git-bash.zip  -d /usr
 ```
 
 ### 原始的 tmux for msys2 的安装包，不需要下载
